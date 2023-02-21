@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: hsl(233, 47%, 7%);
+  padding: 0;
+  margin: 0 auto;
+  font-family: outfit;
+}
+
+h2,
+p,h3 {
+  margin: 0;
+  padding: 0;
+  font-family: Outfit;
+}
+
+main {
+  background-color: hsl(244, 38%, 16%);
+  width: 300px;
+  height: 720px;
+  /* padding: 30px; */
+  margin: 30px auto;
+  border-radius: 7px;
+  color: black;
+  font-size: 14px;
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+}
+
+img {
+  width: 300px;
+  background-color: hsla(277, 64%, 61% 0.4);
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+}
+h2{
+  margin: 20px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+p{
+  text-align: center;
+  color: hsla(0, 0%, 100%, 0.6);
+  margin: 20px;
+}
+.company, .templates, .queries{
+  margin: 40px;
+}
+.company p, .templates p, .queries p{
+  margin: 0;
+  padding: 0;
+}
+h3{
+  text-align: center;
+  color: white;
+
+}
+
+
+
+@media (min-width: 500px) {
+  main {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 800px;
+    height: 350px;
+    margin: 200px auto;
+  }
+
+  .desktop-text {
+    margin: 40px 20px;
+    width: 50%;
+  }
+
+  .desktop-img {
+    width: 50%;
+    background-color: aqua;
+  }
+
+  h2 {
+    text-align: left;
+    color: white;
+    font-size: 30px;
+    /* width: 70%; */
+  }
+  p,
+  h3 {
+    text-align: left;
+    color: hsla(0, 0%, 100%, 0.6);
+    /* margin: 20px; */
+    /* width: 70%; */
+  }
+    .company,
+    .templates,
+    .queries {
+      margin: 40px 50px 40px 0;
+    }
+  .flex-info {
+    display: flex;
+    justify-content: left;
+    margin-left: 20px;
+  }
+}
+/* @media (min-width: 900px) {
+  main{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 900px;
+    height: 350px;
+    margin: 200px auto;
+  }
+  .desktop-text{
+    margin: 20px 10px;
+    width: 50%;
+  }
+  .desktop-img {
+    width: 50%;
+    background-color: aqua;
+  }
+  h2 {
+    text-align: left;
+    color: white;
+    font-size: 30px;
+    width: 70%;
+  }
+  p, h3 {
+    text-align: left;
+    color: hsla(0, 0%, 100%, 0.6);
+    width: 70%;
+  }
+    .company, .templates, .queries {
+      margin: 0;
+    }
+  .flex-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+} */
